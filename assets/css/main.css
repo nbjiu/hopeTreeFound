@@ -56,7 +56,6 @@
 .conts5 .item:hover {background: #ccc;}
 .conts5 .item > p {font-size: 24px; color: var(--tago-color-black)}
 .conts5 .item > div{display: flex;gap: 40px;align-items: center;}
-
 /* contents end */
 
 /* aside.floating start */

@@ -16,7 +16,9 @@
 .header_inn {display: flex; justify-content: space-between; align-items: center;}
 .logo {width: 147px; height: auto;}
 .gnb {display: flex; gap: 61px;padding-top: 8px;}
-.gnb li a {font-size: 20px;}
+.gnb li a {font-size: 20px;position: relative;}
+.gnb li a::before {content: '';position: absolute; width: 0;left:0; height: 2px;background: var(--tago-button-bg);bottom: -2px;transition: all 0.2s ease-in-out;}
+.gnb li a:hover::before{width: 100%;}
 .support {display: flex; gap: 27px;}
 .support a {font-size: 20px;color: var(--tago-color-light); background-color: var(--tago-button-bg);width: 130px; height: 45px;display: flex;align-items: center;justify-content: center;border-radius: 5px;}
 .support .hamburger {position: relative;width: 26px;height: auto;border: none;display: block;cursor: pointer;}
