@@ -45,6 +45,7 @@
     
 }
 @media screen and (max-width: 575.98px) {
+    .banner {height: 450px;}
     .conts .article_tit {font-size: 35px;line-height: 40px;}
     .conts1 .item { width: 45%;}
     .conts1 .item .img {height: 150px;}
