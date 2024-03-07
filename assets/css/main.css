@@ -36,9 +36,9 @@
 .conts3 > p span{font-weight: 300;}
 .conts3 .inn {display: flex;justify-content: space-between;gap: 10px}
 .conts3 .inn a {width: 400px;height: 400px;display: flex;align-items: flex-end;}
-.conts3 .inn > a:nth-child(1) {background: url(../imgs/main/conts3_1.png);}
-.conts3 .inn > a:nth-child(2) {background: url(../imgs/main/conts3_2.png);}
-.conts3 .inn > a:nth-child(3) {background: url(../imgs/main/conts3_3.png);}
+.conts3 .inn > a:nth-child(1) {background: url(../imgs/main/conts3_1.png); background-position: 60% 90%;}
+.conts3 .inn > a:nth-child(2) {background: url(../imgs/main/conts3_2.png); background-position: 55% center;}
+.conts3 .inn > a:nth-child(3) {background: url(../imgs/main/conts3_3.png); background-position: 28% 85%;}
 .conts3 .inn  p {font-size: 25px; color: var(--tago-color-light);width: 100%;text-align: center;padding: 90px 0 39px; background: linear-gradient(0deg, rgba(83,83,83), rgba(0, 0, 0, 0));}
 
 .conts4 {padding-top: 201px;}
